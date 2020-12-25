@@ -1,5 +1,4 @@
 # Stock-Market-System
-Stock Market System
 
 I had school assignment, where we were asked to demonstrate our **Java** skills by making a **Stock market and Brokerage system**.
 A pdf containing the problem statement was proved to us- <br>
@@ -20,7 +19,6 @@ There are 4 files that have been used to make the program -
   
 4. **Stock.class** - It contains the stock class, which defines the parameters of a stock, namely - 
   > ticker | sector | open | high | low | close | type of stock.
-
 
 
 Cheers!
