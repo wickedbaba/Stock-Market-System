@@ -13,7 +13,7 @@ There are 4 files that have been used to make the program -
   > trader's name | buy or sell | scrip | quantity | rate.
   
   
-3. **Trader.class*8 - It contains the trader class, which defines the parameters of a trader, namely -
+3. **Trader.class** - It contains the trader class, which defines the parameters of a trader, namely -
   > id | funds | list of owned Stocks.
   
   
