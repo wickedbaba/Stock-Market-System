@@ -1,0 +1,46 @@
+Added scrip: INFY with a new instantiation of <class_name>
+Added scrip: TCS with a new instantiation of <class_name>
+Added scrip: SBI with a new instantiation of <class_name>
+Added scrip: M&M with a new instantiation of <class_name>
+Added scrip: Cipla with a new instantiation of <class_name>
+Added scrip: Sunpharma with a new instantiation of <class_name>
+Added user: Jaydeep with a new instantiation of <class_name>
+Added user: Mimi with a new instantiation of <class_name>
+Added user: Kapil with a new instantiation of <class_name>
+Added user: Nusrat with a new instantiation of <class_name>
+Market Opens
+Order rejected for user: Jaydeep, type: buy, scrip: INFY, qty:10, rate: 790, reason: lower circuit violation. //<Please handle exception appropriately>
+Order placed for user: Jaydeep, type: buy, scrip: SBI, qty:100, rate: 210
+Order placed for user: Mimi, type: sell, scrip: INFY, qty:10, rate: 900
+Order placed for user: Kapil, type: buy, scrip: M&M, qty:10, rate: 580
+Order placed for user: Nusrat, type: sell, scrip: SBI, qty:25, rate: 195
+Order rejected for user: Mimi, type: buy, scrip: TCS, qty:5, rate: 2190, reason: Insufficient funds. //<Please handle exception appropriately>
+
+Orderbook: 
+Buy order SBI:100 at 210
+Buy order M&M:10 at 580
+Sell order INFY:10 at 900
+Sell order SBI:25 at 195
+
+Executed transactions:
+25 qty of scrip:SBI sold for INR 195; Buyer: Jaydeep, Seller: Nusrat  //<Please note that the seller's ask price is the final price at which the transaction takes place>
+
+Scrips listed in sector: Pharma
+Cipla, OHLC = <790, 790, 790, 790>      //<Please note that O, H, L, C may not be all equal>
+Sunpharma, OHLC = <490, 490, 490, 490>  //<In this particular sample case, they are all equal>
+
+Deleted scrip: TCS
+Deleted User: Jaydeep
+Deleted scrip: M&M
+Deleted User: Kapil
+
+Scrips:
+scrip: INFY, sector: IT, O:890, H:890, L:890, C:890     //<Please observe that only four scrips are left>
+scrip: SBI, sector: Bank, O:195, H:195, L:195, C:190    //<Please observe how O, H, L, C got changed. C will remain unchanged throughout the day and gets updated once market closes>
+scrip: Cipla, sector: Pharma, O:790, H:790, L:790, C:790
+scrip: Sunpharma, sector: Pharma, O:490, H:490, L:490, C:490
+
+Users:
+user: Mimi, funds:1000, holding: {INFY:10, TCS:5, SBI:20}    //<Please observe that only two users are left>
+user: Nusrat, funds:6875, holding: {INFY:20, M&M:25}         //<Please observe how both funds and holding have changed for this user>
+Market closed.
