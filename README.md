@@ -21,5 +21,6 @@ There are 4 files that have been used to make the program -
   > ticker | sector | open | high | low | close | type of stock.
 
 
+---
 Cheers!
 Bwicked
